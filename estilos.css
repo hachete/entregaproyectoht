@@ -1,0 +1,76 @@
+.cv {
+  padding:20px; 
+  margin-bottom:60px;}
+
+.info {
+  margin-top:30px;
+}
+.info a {
+  color:#000000;
+  margin-bottom:10px;
+  display:block;
+  font-size: 16px;
+}
+
+.info i {
+  background:#db0000;
+  color:#fff;
+  width:35px;
+  height:35px;
+  border-radius:35px;
+  text-align:center;
+  line-height:35px;
+  margin-right:15px;
+  
+}
+.cv section {
+  margin-bottom:30px;
+}
+
+.cv h1 {
+  font-weight:bold;
+  color: #db0000;
+}
+
+.cv h3 {
+  font-size:18px;
+  font-weight:bold;
+}
+.cv h4 {
+  font-size:14px;
+  font-weight:bold;
+}
+
+.habilidades {
+  margin: 20px;
+
+}
+.habilidades section {
+  overflow:auto;
+  margin-bottom:0;
+}
+
+.habilidades section p {
+  max-width:50%;
+
+}
+.habilidades section span {
+  display:inline-block;
+  width:15px;
+  height:15px;
+  background:#bbb;
+  border-radius:15px;
+  margin:0 1px;
+}
+.habilidades section span.lleno {
+  background:#06c377;
+}
+
+
+#hora {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 20px;
+  color: #db0000;
+  }
+
