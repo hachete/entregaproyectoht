@@ -41,30 +41,6 @@
   font-weight:bold;
 }
 
-.habilidades {
-  margin: 20px;
-
-}
-.habilidades section {
-  overflow:auto;
-  margin-bottom:0;
-}
-
-.habilidades section p {
-  max-width:50%;
-
-}
-.habilidades section span {
-  display:inline-block;
-  width:15px;
-  height:15px;
-  background:#bbb;
-  border-radius:15px;
-  margin:0 1px;
-}
-.habilidades section span.lleno {
-  background:#06c377;
-}
 
 
 #hora {
@@ -74,3 +50,33 @@
   color: #db0000;
   }
 
+
+  #conocimientos {
+    background-color: #f2f2f2;
+    padding: 50px;
+  }
+  
+  .skills {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .skill {
+    flex-basis: calc(100% / 3);
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .nombre {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .barra {
+    height: 10px;
+    background-color: #db0000;
+    width: 0;
+    transition: width 1s ease-in-out;
+  }
+  
